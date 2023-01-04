@@ -13,7 +13,9 @@ const link_db = `${process.env.DB}+srv://${process.env.USER_DB}:${process.env.PA
   imports: [
     UsersModule,
     ClientsModule,
-    MongooseModule.forRoot(link_db),
+    MongooseModule.forRoot(
+      'mongodb+srv://geferson:1234@cluster0.bc1wzan.mongodb.net/?retryWrites=true&w=majority',
+    ),
     AuthModule,
   ],
 })
