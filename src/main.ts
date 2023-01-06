@@ -2,12 +2,25 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
+import cors from 'cors';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, { cors: true });
+  app.use(cors());
   app.enableCors({
-    origin: ['https://http://localhost:3000', '127.0.0.1', '*'],
+    origin: ['*', 'http://localhost:3000', 'http://localhost:3001'],
     methods: ['POST', 'PUT', 'DELETE', 'GET', 'PATCH'],
+    allowedHeaders: [
+      'Accept',
+      'Accept-Version',
+      'Content-Type',
+      'Api-Version',
+      'Origin',
+      'X-Requested-With',
+      'Authorization',
+    ],
+    credentials: true,
+    exposedHeaders: ['API-Token-Expiry'],
   });
   const config = new DocumentBuilder()
     .setTitle('Documentation of Test of Geferson')
