@@ -4,8 +4,11 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { cors: true });
-  // app.enableCors();
+  const app = await NestFactory.create(AppModule);
+  app.enableCors({
+    origin: ['https://http://localhost:3000', '127.0.0.1', '*'],
+    methods: ['POST', 'PUT', 'DELETE', 'GET', 'PATCH'],
+  });
   const config = new DocumentBuilder()
     .setTitle('Documentation of Test of Geferson')
     .setDescription('GEFERSON ALMEIDA LOPES - Gefersonjefreey@gmail.com')
