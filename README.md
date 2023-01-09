@@ -1,73 +1,46 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Olá, seja bem Vindo ao README Principal do projeto!!!
+GEFERSON ALMEIDA LOPES
+GMAIL -> gefersonjefreey@gmail.com
+LINKEDIN -> [https://www.linkedin.com/in/algeferson/]
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto possui duas pastas chamadas de Back-en e Front-end 
+que nada mais São de forma separada cada parte do projeto web full stack ;)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# COMO VER AS REQUISIÇÕES?
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Na aplicação back end também possui um arquivo chamado ``DATA_REQUEST_API=Insomnia`` que é um arquivo JSON para importar no seu insomnia ou outro provedor de rotas e verificar como as requisições são feitas e as respostas das mesmas.
 
-## Installation
 
-```bash
-$ npm install
-```
+# COMO EXECUTAR OS TESTES?
 
-## Running the app
+para ver os testes da aplicação back end é só executar o comando ``npm test ou yarn test``
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+# QUAL É A ROTA DO DEPLOY DO BACK END NA AWS? 
 
-# production mode
-$ npm run start:prod
-```
+A rota para verificar é [http://ec2-18-231-114-17.sa-east-1.compute.amazonaws.com:3000]
+Você também pode acessar a documentação adicionando a palavra ``/doc``
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
+# QUAL É O LINK DO FIGMA?
 
-# e2e tests
-$ npm run test:e2e
+[https://www.figma.com/file/vp6QrYJbIeK6co0v4eOssd/Sharenergy?node-id=0%3A1&t=3LGy9KSXiTu57Fxx-0]
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+# QUAL O LINK DO VÍDEO DO YOUTUBE
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Gravei um vídeo que acabou tendo 5 minutos, mas tá bem bacana, dá pra entender um pouco do projeto realizado.
 
-## Stay in touch
+Link do vídeo: [https://youtu.be/OB_QwQXGF1U]
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Vim reparar que faltei falar sobre a primeira rota que é a da listagem de usuários, mas basicamente é uma rota paginada, se clicar em + ele irá passando as páginas e tem um botão que levará a uma outra rota que poderar fazer uma pesquisa nos usuários que possuem o nome, username ou email que forem passados no input
 
-## License
+# COMO RODAR A APLICAÇÃO FRONT END? 
 
-Nest is [MIT licensed](LICENSE).
+Para rodar o projeto e verificar como cada coisa se comporta é só executar o comando `yarn start ou npm start` que logo em seguida será aberta uma página no localhost de sua máquina ;)
+
+
+
+Bom, acho que é só isso ;)
+Precisando de algo mais, só entrar em contato comigo pelo linkedin ou email, mas se preferirem... aceito até por whatsapp => `(71) 9 96063783`
